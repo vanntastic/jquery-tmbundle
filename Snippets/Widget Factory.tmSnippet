@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$.widget('ui.${1:name}', {
+	options: {
+		${2:options}
+	},
+	
+	_create: function() {
+		// executes only once when the widget instantiates
+	},
+	
+	_init: function() {
+		// executes every single time when the widget instance is called without a method
+	},
+	
+	_setOption: function() {
+		// executes every single time when you create
+	}
+	
+});</string>
+	<key>name</key>
+	<string>Widget Factory</string>
+	<key>scope</key>
+	<string>source.js.jquery</string>
+	<key>tabTrigger</key>
+	<string>widget</string>
+	<key>uuid</key>
+	<string>11AAEAB6-1346-47B3-88A4-D099998FA70F</string>
+</dict>
+</plist>
