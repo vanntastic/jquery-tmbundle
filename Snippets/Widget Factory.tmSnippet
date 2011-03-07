@@ -18,6 +18,7 @@
 	
 	_setOption: function() {
 		// executes every single time you set an option
+		this.options[key] = value;
 	}
 	
 });</string>
