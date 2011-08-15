@@ -16,7 +16,7 @@
 		// executes every single time when the widget instance is called without a method
 	},
 	
-	_setOption: function() {
+	_setOption: function(key,value) {
 		// executes every single time you set an option
 		this.options[key] = value;
 	}
